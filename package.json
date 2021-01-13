@@ -1,0 +1,26 @@
+{
+  "name": "@hutsoninc/mapbox-utils",
+  "version": "1.0.0",
+  "description": "Mapbox utilities",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "isomorphic-fetch": "^3.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.1.3"
+  },
+  "author": {
+    "name": "Austin Gordon",
+    "email": "gordon.austin2@gmail.com",
+    "url": "https://github.com/AustinLeeGordon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hutsoninc/mapbox-utils"
+  }
+}
